@@ -1,3 +1,7 @@
+/* start variables */
+:root {
+	--primary-color: #10cab7;
+}
 /* start global rules */
 * {
 	-webkit-box-sizing: border-box;
@@ -116,6 +120,7 @@ body {
 
 .header .links:hover ul {
 	display: block;
+	z-index: 1;
 } 
 
 .header .links ul li a {
@@ -135,3 +140,36 @@ body {
 }
 
 /* end header */
+
+/* start landing */
+.landing {
+	background-image: url(../images/mountains.webp);
+	background-size: cover;
+	height: calc(100vh - 64px);
+	position: relative;
+}
+
+.landing .intro-text{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+	width: 320px;
+	max-width: 100%;
+}
+
+.landing .intro-text h1{
+	margin: 0;
+	color: var(--primary-color);
+	font-weight: bold;
+	font-size: 50px;
+
+}
+
+.landing .intro-text p{
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+/* end landing */
