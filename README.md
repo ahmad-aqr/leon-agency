@@ -1,2 +1,2 @@
 # leon-agency
-using HTML5 and CSS3 only
+Built completely using HTML5 and CSS3 only 
